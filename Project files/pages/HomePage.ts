@@ -3,7 +3,7 @@ import { Page, expect, Locator } from '@playwright/test';
 export class HomePage {
     private readonly page: Page;
     
-    // Locators
+
     private readonly lnkMyAccount: Locator;
     private readonly lnkRegister: Locator;
     private readonly linkLogin: Locator;

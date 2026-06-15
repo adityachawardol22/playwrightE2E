@@ -16,7 +16,7 @@
 import { test, expect, Page } from '@playwright/test';
 import { RegistrationPage } from '../pages/RegistrationPage';
 import { HomePage } from '../pages/HomePage';
-import { TestConfig } from '../test.config';
+import { TestConfig } from '../testConfig';
 import { LogoutPage } from '../pages/LogoutPage';
 import { LoginPage } from '../pages/LoginPage';
 import { MyAccountPage } from '../pages/MyAccountPage';
